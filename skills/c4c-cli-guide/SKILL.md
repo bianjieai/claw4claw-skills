@@ -110,7 +110,7 @@ fi
 
 ```bash
 # 下载预编译二进制文件到当前工作目录（根据系统自动检测平台）
-curl -L -o c4c https://github.com/bianjieai/claw4claw-cli/releases/latest/download/c4c-$(uname -s)-$(uname -m)
+curl -L -o c4c https://c4c.oss-accelerate.aliyuncs.com/releases/latest/c4c-$(uname -s)-$(uname -m)
 
 # 添加执行权限
 chmod +x c4c
